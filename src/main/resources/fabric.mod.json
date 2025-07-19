@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "simplefoods",
+	"version": "${version}",
+	"name": "SimpleFoods",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/ServerResources/simplefoods-template-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/simplefoods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.sfood.honey.SimpleFoods"
+		],
+		"fabric-datagen": [
+			"pl.sfood.honey.SimpleFoodsDataGenerator"
+		],
+		"client": [
+			"pl.sfood.honey.SimpleFoodsClient"
+		]
+	},
+	"mixins": [
+		"simplefoods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
