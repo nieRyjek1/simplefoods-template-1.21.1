@@ -29,5 +29,5 @@ public class ModFoodCompponents {
     public static final FoodComponent TEPICOLA = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
     public static final FoodComponent OSHAWATA = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
     public static final FoodComponent BOMBARDILOTOTODILO = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 150), 0.15f).build();
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 250), 0.25f).build();
 }
