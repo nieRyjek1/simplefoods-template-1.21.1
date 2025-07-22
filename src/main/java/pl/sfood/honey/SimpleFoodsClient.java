@@ -9,5 +9,7 @@ public class SimpleFoodsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.FRIDGE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.FRIDGE_BOTTOM, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlock.FRIDGE_TOP, RenderLayer.getTranslucent());
     }
 }

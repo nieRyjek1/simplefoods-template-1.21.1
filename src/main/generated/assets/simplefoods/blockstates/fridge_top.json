@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "simplefoods:block/fridge_top",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "simplefoods:block/fridge_top"
+    },
+    "facing=south": {
+      "model": "simplefoods:block/fridge_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "simplefoods:block/fridge_top",
+      "y": 270
+    }
+  }
+}

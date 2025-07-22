@@ -18,6 +18,8 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import pl.sfood.honey.SimpleFoods;
 import pl.sfood.honey.block.custom.FridgeBlock;
+import pl.sfood.honey.block.custom.FridgeBottomBlock;
+import pl.sfood.honey.block.custom.FridgeTopBlock;
 
 public class ModBlock {
 
@@ -26,9 +28,19 @@ public class ModBlock {
                     .sounds(BlockSoundGroup.GLASS).nonOpaque()));
 
 
+    public static final Block FRIDGE_BOTTOM = registerBlock("fridge_bottom",
+            new FridgeBottomBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.METAL).strength(2.0f).nonOpaque()));
 
 
+    public static final Block FRIDGE_TOP = registerBlockWithoutItem("fridge_top",
+            new FridgeTopBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.METAL).strength(2.0f).nonOpaque()));
 
+
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(SimpleFoods.MOD_ID, name), block);
+    }
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(SimpleFoods.MOD_ID, name), block);
@@ -45,6 +57,7 @@ public class ModBlock {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlock.FRIDGE);
+            entries.add(ModBlock.FRIDGE_BOTTOM);
         });
 
     }
