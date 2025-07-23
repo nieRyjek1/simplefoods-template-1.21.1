@@ -12,11 +12,11 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class FridgeBlock extends HorizontalFacingBlock {
-    public static final MapCodec<FridgeBlock> CODEC = createCodec(FridgeBlock::new);
-    private  static final VoxelShape SHAPE = Block.createCuboidShape(0,-16,0,16,32,16);
+public class CoffeeMachineBlock extends HorizontalFacingBlock {
+    public static final MapCodec<CoffeeMachineBlock> CODEC = createCodec(CoffeeMachineBlock::new);
+    private  static final VoxelShape SHAPE = Block.createCuboidShape(2,0,2,14,13,14);
 
-    public FridgeBlock(Settings settings) {
+    public CoffeeMachineBlock(Settings settings) {
         super(settings);
     }
 

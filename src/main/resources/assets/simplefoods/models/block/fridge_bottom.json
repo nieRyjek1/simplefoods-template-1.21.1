@@ -5,7 +5,8 @@
 	"parent": "simplefoods:block/fridge",
 	"textures": {
 		"0": "simplefoods:block/fridge",
-		"2": "simplefoods:item/text"
+		"2": "simplefoods:item/text",
+		"particle": "simplefoods:block/fridge"
 	},
 	"elements": [
 		{

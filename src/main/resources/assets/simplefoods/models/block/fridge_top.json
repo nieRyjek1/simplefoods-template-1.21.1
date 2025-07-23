@@ -5,7 +5,8 @@
 	"textures": {
 		"0": "simplefoods:block/fridge",
 		"2": "simplefoods:item/text",
-		"1_1": "simplefoods:item/tototext"
+		"1_1": "simplefoods:item/tototext",
+		"particle": "simplefoods:block/fridge"
 	},
 	"elements": [
 		{

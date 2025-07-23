@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "simplefoods:block/coffeemachine",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "simplefoods:block/coffeemachine"
+    },
+    "facing=south": {
+      "model": "simplefoods:block/coffeemachine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "simplefoods:block/coffeemachine",
+      "y": 270
+    }
+  }
+}
