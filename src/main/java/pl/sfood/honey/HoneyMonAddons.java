@@ -9,7 +9,7 @@ import pl.sfood.honey.item.ModItemGroups;
 import pl.sfood.honey.item.ModItems;
 
 public class HoneyMonAddons implements ModInitializer {
-	public static final String MOD_ID = "simplefoods";
+	public static final String MOD_ID = "honeymonaddons";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override

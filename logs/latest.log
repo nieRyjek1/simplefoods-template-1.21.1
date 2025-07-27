@@ -1,5 +1,5 @@
-[19:18:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[19:18:04] [main/INFO] (FabricLoader) Loading 55 mods:
+[20:23:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[20:23:47] [main/INFO] (FabricLoader) Loading 55 mods:
 	- fabric-api 0.116.4+1.21.1
 	- fabric-api-base 0.4.42+6573ed8c19
 	- fabric-api-lookup-api-v1 1.6.71+b559734419
@@ -51,26 +51,27 @@
 	- fabric-transfer-api-v1 5.4.3+c24bd99419
 	- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
 	- fabricloader 0.16.14
+	- honeymonaddons 1.0.0
 	- java 21
 	- minecraft 1.21.1
 	- mixinextras 0.4.1
-	- simplefoods 1.0.0
-[19:18:04] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Ryjek/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[19:18:04] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:18:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[19:18:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[19:18:05] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:18:06] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 365 milliseconds
-[19:18:06] [main/WARN] (PerfmonDisabled) Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[19:18:11] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:18:11] [Render thread/INFO] (Minecraft) Setting user: Player209
-[19:18:11] [Render thread/INFO] (simplefoods) Registering Mod Items For simplefoods
-[19:18:11] [Render thread/INFO] (simplefoods) Registering Mod Blocks forsimplefoods
-[19:18:11] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[19:18:11] [Render thread/INFO] (FabricDataGenHelper) Running data generator for simplefoods
-[19:18:11] [Render thread/INFO] (Minecraft) Starting provider: SimpleFoods/Tags for minecraft:block
-[19:18:11] [Render thread/INFO] (Minecraft) SimpleFoods/Tags for minecraft:block finished after 225 ms
-[19:18:11] [Render thread/INFO] (Minecraft) Starting provider: SimpleFoods/Model Definitions
-[19:18:11] [Render thread/INFO] (Minecraft) SimpleFoods/Model Definitions finished after 25 ms
-[19:18:11] [Render thread/INFO] (Minecraft) All providers took: 251 ms
-[19:18:11] [Render thread/INFO] (Minecraft) Caching: total files: 10, old count: 9, new count: 10, removed stale: 1, written: 4
+[20:23:47] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Ryjek/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:23:47] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:23:47] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[20:23:47] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[20:23:48] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:23:49] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 331 milliseconds
+[20:23:50] [main/WARN] (PerfmonDisabled) Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[20:23:54] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:23:54] [Render thread/INFO] (Minecraft) Setting user: Player421
+[20:23:54] [Render thread/INFO] (honeymonaddons) Registering Item Groups forhoneymonaddons
+[20:23:54] [Render thread/INFO] (honeymonaddons) Registering Mod Items For honeymonaddons
+[20:23:54] [Render thread/INFO] (honeymonaddons) Registering Mod Blocks forhoneymonaddons
+[20:23:54] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[20:23:54] [Render thread/INFO] (FabricDataGenHelper) Running data generator for honeymonaddons
+[20:23:55] [Render thread/INFO] (Minecraft) Starting provider: HoneyMonAddons/Tags for minecraft:block
+[20:23:55] [Render thread/INFO] (Minecraft) HoneyMonAddons/Tags for minecraft:block finished after 234 ms
+[20:23:55] [Render thread/INFO] (Minecraft) Starting provider: HoneyMonAddons/Model Definitions
+[20:23:55] [Render thread/INFO] (Minecraft) HoneyMonAddons/Model Definitions finished after 29 ms
+[20:23:55] [Render thread/INFO] (Minecraft) All providers took: 265 ms
+[20:23:55] [Render thread/INFO] (Minecraft) Caching: total files: 15, old count: 0, new count: 10, removed stale: 6, written: 9

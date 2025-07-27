@@ -14,7 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup SIMPLE_FOODS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(HoneyMonAddons.MOD_ID, "simple_foods_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.HOT_DOG))
-                    .displayName(Text.translatable("itemgroup.simplefoods.simple_foods_items"))
+                    .displayName(Text.translatable("itemgroup.honeymonaddons.simple_foods_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.HOT_DOG);
                         entries.add(ModItems.ICE_CREAM_CHOCOLATE);
@@ -34,7 +34,7 @@ public class ModItemGroups {
     public static final ItemGroup SIMPLE_FOODS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(HoneyMonAddons.MOD_ID, "simple_foods_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlock.COFFEEMACHINE))
-                    .displayName(Text.translatable("itemgroup.simplefoods.simple_foods_blocks"))
+                    .displayName(Text.translatable("itemgroup.honeymonaddons.simple_foods_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlock.COFFEEMACHINE);
                         entries.add(ModBlock.SHELFBLOCK);

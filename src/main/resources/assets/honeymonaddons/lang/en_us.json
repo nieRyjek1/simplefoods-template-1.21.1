@@ -1,0 +1,27 @@
+{
+  "item.honeymonaddons.hot_dog": "Hot Dog",
+  "item.honeymonaddons.ice_cream_chocolate": "Ice Cream Chocolate",
+  "item.honeymonaddons.ice_cream_strawberry": "Ice Cream Strawberry",
+  "item.honeymonaddons.ice_cream_salted_carmel": "Ice Cream Salted Carmel",
+  "item.honeymonaddons.ice_cream_vanilla": "Ice Cream Vanilla",
+  "item.honeymonaddons.banana_shake": "Bannana Shake",
+  "item.honeymonaddons.blueberry_shake": "Blueberry Shake",
+  "item.honeymonaddons.carmel_shake": "Carmel Shake",
+  "item.honeymonaddons.chocolate_shake": "Chocolate Shake",
+  "item.honeymonaddons.strawberry_shake": "Strawberry Shake",
+  "item.honeymonaddons.vanilla_shake": "Vanilla Shake",
+  "item.honeymonaddons.tepicola": "Tepicola",
+  "item.honeymonaddons.oshawata": "Oshawata",
+  "item.honeymonaddons.bombardilototodilo": "Bombardilo Totodilo",
+
+
+  "block.honeymonaddons.coffeemachine": "Coffee Machine",
+  "block.honeymonaddons.fridge_bottom": "Drinks Fridge",
+  "block.honeymonaddons.shelf": "Shelf",
+
+
+
+
+  "itemgroup.honeymonaddons.simple_foods_blocks": "HoneyMonAddons Blocks",
+  "itemgroup.honeymonaddons.simple_foods_items": "HoneyMonAddons Items"
+}

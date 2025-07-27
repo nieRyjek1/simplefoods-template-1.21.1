@@ -16,17 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"pl.sfood.honey.SimpleFoods"
+			"pl.sfood.honey.HoneyMonAddons"
 		],
 		"fabric-datagen": [
-			"pl.sfood.honey.SimpleFoodsDataGenerator"
+			"pl.sfood.honey.HoneyMonAddonsDataGenerator"
 		],
 		"client": [
-			"pl.sfood.honey.SimpleFoodsClient"
+			"pl.sfood.honey.HoneyMonAddonsClient"
 		]
 	},
 	"mixins": [
-		"simplefoods.mixins.json"
+		"honeymonaddons.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
