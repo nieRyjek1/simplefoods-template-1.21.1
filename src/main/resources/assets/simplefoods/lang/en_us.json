@@ -12,5 +12,16 @@
   "item.simplefoods.vanilla_shake": "Vanilla Shake",
   "item.simplefoods.tepicola": "Tepicola",
   "item.simplefoods.oshawata": "Oshawata",
-  "item.simplefoods.bombardilototodilo": "Bombardilo Totodilo"
+  "item.simplefoods.bombardilototodilo": "Bombardilo Totodilo",
+
+
+  "block.simplefoods.coffeemachine": "Coffee Machine",
+  "block.simplefoods.fridge_bottom": "Drinks Fridge",
+  "block.simplefoods.shelf": "Shelf",
+
+
+
+
+  "itemgroup.simplefoods.simple_foods_blocks": "Simple Foods Blocks",
+  "itemgroup.simplefoods.simple_foods_items": "Simple Foods Items"
 }

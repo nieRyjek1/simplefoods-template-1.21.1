@@ -10,7 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import pl.sfood.honey.SimpleFoods;
+import pl.sfood.honey.HoneyMonAddons;
 import pl.sfood.honey.block.custom.CoffeeMachineBlock;
 import pl.sfood.honey.block.custom.FridgeBottomBlock;
 import pl.sfood.honey.block.custom.FridgeTopBlock;
@@ -40,26 +40,23 @@ public class ModBlock {
 
 
     private static Block registerBlockWithoutItem(String name, Block block) {
-        return Registry.register(Registries.BLOCK, Identifier.of(SimpleFoods.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(HoneyMonAddons.MOD_ID, name), block);
     }
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(SimpleFoods.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(HoneyMonAddons.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(SimpleFoods.MOD_ID, name),
+        Registry.register(Registries.ITEM, Identifier.of(HoneyMonAddons.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 
     public static  void registerModBlocks() {
-        SimpleFoods.LOGGER.info("Registering Mod Blocks for" + SimpleFoods.MOD_ID);
+        HoneyMonAddons.LOGGER.info("Registering Mod Blocks for" + HoneyMonAddons.MOD_ID);
 
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlock.COFFEEMACHINE);
-            entries.add(ModBlock.FRIDGE_BOTTOM);
-            entries.add(ModBlock.SHELFBLOCK);
         });
 
     }

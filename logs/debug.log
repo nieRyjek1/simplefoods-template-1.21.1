@@ -142,9 +142,9 @@
 [19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.tag.convention.ConventionLogWarnings for mod fabric-convention-tags-v1 (key main)
 [19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.registry.sync.FabricRegistryClientInit for mod fabric-registry-sync-v0 (key client)
 [19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryInit for mod fabric-registry-sync-v0 (key main)
-[19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer pl.sfood.honey.SimpleFoodsDataGenerator for mod simplefoods (key fabric-datagen)
-[19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer pl.sfood.honey.SimpleFoodsClient for mod simplefoods (key client)
-[19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer pl.sfood.honey.SimpleFoods for mod simplefoods (key main)
+[19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer pl.sfood.honey.HoneyMonAddonsDataGenerator for mod simplefoods (key fabric-datagen)
+[19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer pl.sfood.honey.HoneyMonAddonsClient for mod simplefoods (key client)
+[19:18:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer pl.sfood.honey.HoneyMonAddons for mod simplefoods (key main)
 [19:18:04] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Ryjek/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
 [19:18:04] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
 [19:18:04] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///C:/Users/Ryjek/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.14/5778d47f536bf2c63ed2abc1a56f5a1c129e34a/fabric-loader-0.16.14.jar)

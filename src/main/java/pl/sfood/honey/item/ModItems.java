@@ -6,7 +6,7 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import pl.sfood.honey.SimpleFoods;
+import pl.sfood.honey.HoneyMonAddons;
 
 public class ModItems {
     public static final Item HOT_DOG = registerItem("hot_dog", new Item(new Item.Settings().food(ModFoodCompponents.HOT_DOG)));
@@ -27,28 +27,15 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(SimpleFoods.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(HoneyMonAddons.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        SimpleFoods.LOGGER.info("Registering Mod Items For " + SimpleFoods.MOD_ID);
+        HoneyMonAddons.LOGGER.info("Registering Mod Items For " + HoneyMonAddons.MOD_ID);
 
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(HOT_DOG);
-            entries.add(ICE_CREAM_CHOCOLATE);
-            entries.add(ICE_CREAM_STRAWBERRY);
-            entries.add(ICE_CREAM_SALTED_CARMEL);
-            entries.add(ICE_CREAM_VANILLA);
-            entries.add(BANANA_SHAKE);
-            entries.add(BLUEBERRY_SHAKE);
-            entries.add(CARMEL_SHAKE);
-            entries.add(CHOCOLATE_SHAKE);
-            entries.add(STRAWBERRY_SHAKE);
-            entries.add(VANILLA_SHAKE);
-            entries.add(TEPICOLA);
-            entries.add(OSHAWATA);
-            entries.add(BOMBARDILOTOTODILO);
+
 
         });
     }
