@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "honeymonaddons:block/coffeemachine",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "honeymonaddons:block/coffeemachine"
+    },
+    "facing=south": {
+      "model": "honeymonaddons:block/coffeemachine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "honeymonaddons:block/coffeemachine",
+      "y": 270
+    }
+  }
+}

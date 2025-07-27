@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "honeymonaddons:block/shelf",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "honeymonaddons:block/shelf"
+    },
+    "facing=south": {
+      "model": "honeymonaddons:block/shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "honeymonaddons:block/shelf",
+      "y": 270
+    }
+  }
+}

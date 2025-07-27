@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "honeymonaddons:block/fridge_top",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "honeymonaddons:block/fridge_top"
+    },
+    "facing=south": {
+      "model": "honeymonaddons:block/fridge_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "honeymonaddons:block/fridge_top",
+      "y": 270
+    }
+  }
+}
